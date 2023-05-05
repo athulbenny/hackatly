@@ -1,0 +1,30 @@
+.dashboard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+  }
+  
+  .widget {
+    background-color: #fff;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .widget p {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .widget span {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
